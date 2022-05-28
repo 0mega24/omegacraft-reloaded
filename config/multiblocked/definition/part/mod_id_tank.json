@@ -1,0 +1,24 @@
+{
+  "canShared": true,
+  "location": "mod_id:tank",
+  "traits": {
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "x": 5,
+        "y": 5,
+        "autoIO": false,
+        "tC": 2147483647
+      }
+    ]
+  },
+  "allowRotate": true,
+  "showInJei": true,
+  "baseRenderer": {
+    "baseTexture": "multiblocked:blocks/gregtech_base",
+    "frontTexture": "multiblocked:blocks/gregtech_front",
+    "type": "gregtech"
+  },
+  "isOpaqueCube": true
+}
