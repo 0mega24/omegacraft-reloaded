@@ -1,1 +1,0 @@
-mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}), false);
