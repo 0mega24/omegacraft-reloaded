@@ -1,0 +1,14 @@
+
+
+CanOverride: true
+
+SmoothRadius: -1
+
+OverrideChildSettings: false
+
+ReplaceAbove:
+ReplaceBelow:
+
+MustBeInside: VillageGeneratorStructurePlaceHolder, VillageGeneratorStructuresDelay, VillageGeneratorStructuresDelay2, VillageGeneratorStructuresDelay3, VillageGeneratorStructuresDelay4, VillageGeneratorStructuresDelay5, VillageGeneratorStructuresDelay6, VillageGeneratorStructuresDelay7, VillageGeneratorStructuresDelay8, VillageGeneratorStructuresDelay9, VillageGeneratorStructuresDelay10
+
+Branch(0,0,0,true,quartz-fountainC0R0,NORTH,100,0)

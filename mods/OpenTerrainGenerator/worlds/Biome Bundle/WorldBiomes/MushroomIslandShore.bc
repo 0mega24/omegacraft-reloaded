@@ -22,8 +22,6 @@ BiomeRarity: 50
 
 BiomeColor: #A000FF
 
-ReplaceToBiomeName: minecraft:mushroom_island_shore
-
 ####################
 # Isle biomes only #
 ####################
@@ -56,8 +54,6 @@ BiomeHeight: -1.76
 BiomeVolatility: 0.1
 
 SmoothRadius: 7
-
-CustomHeightControlSmoothRadius: 2
 
 MaxAverageHeight: 0.0
 
@@ -150,25 +146,11 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
-GrassColor2: #FFFFFF
-
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
 
-FoliageColor2: #FFFFFF
-
 FoliageColorIsMultiplier: true
-
-FogColor: #000000
-
-FogDensity: 0.5
-
-FogTimeWeight: 0.1
-
-FogRainWeight: 0.25
-
-FogThunderWeight: 0.5
 
 
 #######################################################################
@@ -215,8 +197,6 @@ Liquid(LAVA,10,100.0,19,139,STONE:0)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-InheritSaplingResource: false
-
 
 #######################################################################
 # +-----------------------------------------------------------------+ #
@@ -258,11 +238,11 @@ RareBuildingType: disabled
 
 SpawnMonsters: []
 
-SpawnCreatures: [{"mob": "minecraft:mooshroom", "weight": 8, "min": 4, "max": 8}]
+SpawnCreatures: [{"mob": "mooshroom", "weight": 8, "min": 4, "max": 8}]
 
-SpawnWaterCreatures: [{"mob": "minecraft:squid", "weight": 10, "min": 4, "max": 4}]
+SpawnWaterCreatures: [{"mob": "squid", "weight": 10, "min": 4, "max": 4}]
 
-SpawnAmbientCreatures: [{"mob": "minecraft:bat", "weight": 10, "min": 8, "max": 8}]
+SpawnAmbientCreatures: [{"mob": "bat", "weight": 10, "min": 8, "max": 8}]
 
 BiomeDictId: MUSHROOM, BEACH
 

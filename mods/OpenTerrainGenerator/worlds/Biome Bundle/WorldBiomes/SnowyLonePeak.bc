@@ -22,7 +22,7 @@ BiomeRarity: 90
 
 BiomeColor: #000000
 
-ReplaceToBiomeName: minecraft:mutated_ice_flats
+ReplaceToBiomeName: Ice Plains Spikes
 
 ####################
 # Isle biomes only #
@@ -56,8 +56,6 @@ BiomeHeight: -1.8
 BiomeVolatility: 2.5
 
 SmoothRadius: 4
-
-CustomHeightControlSmoothRadius: 2
 
 MaxAverageHeight: 0.0
 
@@ -150,25 +148,11 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
-GrassColor2: #FFFFFF
-
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
 
-FoliageColor2: #FFFFFF
-
 FoliageColorIsMultiplier: true
-
-FogColor: #000000
-
-FogDensity: 0.5
-
-FogTimeWeight: 0.1
-
-FogRainWeight: 0.25
-
-FogThunderWeight: 0.5
 
 
 #######################################################################
@@ -201,8 +185,6 @@ CustomStructure(JaggedCliffs1,10.0)
 # |                         Sapling resource                        | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
-
-InheritSaplingResource: false
 
 
 #######################################################################

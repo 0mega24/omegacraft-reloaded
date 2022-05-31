@@ -1,0 +1,271 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Biome Inheritance                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeExtends: 
+
+ResourceInheritance: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeSize: 6
+
+BiomeRarity: 100
+
+BiomeColor: #B9DE6A
+
+ReplaceToBiomeName: 
+
+####################
+# Isle biomes only #
+####################
+
+IsleInBiome: 
+
+BiomeSizeWhenIsle: 6
+
+BiomeRarityWhenIsle: 96
+
+######################
+# Border biomes only #
+######################
+
+BiomeIsBorder: SavannaDesertEdge1, RedSandDesert
+
+NotBorderNear: SavannaDesertPeak, SavannaDesertEdge2, SavannaDesert, SnowyMountain, DeadForest, ForestConiferousDry, SavannaScrublandCliffs, VolcanicBadlandsEdge1, VolcanicBadlandsEdge2, VolcanicBadlandsEdge3, VolcanicBadlands, VolcanicBadlandsMountain, RedSandMesa, RedSandMesaHigh, RedSandMesaHigh2, RedSandMesaLow, RedSandMesaLow2, RedSandMesaEdge, SavannaMountains, SavannaMountainsEdge, DryPeaks, RedSandDune, VolcanicBadlandsPalms, RedSandSavanna, RedSandDuneLarge
+
+BiomeSizeWhenBorder: 10
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeHeight: 0.5
+
+BiomeVolatility: 1.55
+
+SmoothRadius: 24
+
+MaxAverageHeight: 0.0
+
+MaxAverageDepth: 0.0
+
+Volatility1: -2.2
+
+Volatility2: 0.0
+
+VolatilityWeight1: 1.5
+
+VolatilityWeight2: 1.45
+
+DisableBiomeHeight: false
+
+CustomHeightControl: 40.0, 40.0, 40.0, 40.0, 40.0, 40.0, 40.0, 80.0, 15.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Rivers                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+########################
+# ImprovedRivers:false #
+########################
+
+RiverBiome: RiverSavanna
+
+#######################
+# ImprovedRivers:true #
+#######################
+
+RiverHeight: -1.0
+
+RiverVolatility: 0.3
+
+RiverWaterLevel: 63
+
+RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StoneBlock: STONE:0
+
+SurfaceBlock: GRASS:0
+
+GroundBlock: DIRT:0
+
+SurfaceAndGroundControl: DIRT:1, DIRT:0, -6.0, GRASS:0, DIRT:0, -2.0, DIRT:1, DIRT:0, 2.0, GRASS:0, DIRT:0, 6.0 
+
+ReplacedBlocks: (STONE:0,HARD_CLAY,62,255)
+
+################################
+# Water / Lava & Frozen States #
+################################
+
+UseWorldWaterLevel: true
+
+WaterLevelMax: 63
+
+WaterLevelMin: 0
+
+WaterBlock: STATIONARY_WATER:0
+
+IceBlock: ICE
+
+CooledLavaBlock: STATIONARY_LAVA:0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                       Visuals and weather                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeTemperature: 1.5
+
+BiomeWetness: 0.0
+
+SkyColor: #7BA5FF
+
+WaterColor: #FFFFFF
+
+GrassColor: #ADCA58
+
+GrassColor2: #FFFFFF
+
+GrassColorIsMultiplier: false
+
+FoliageColor: #C28A29
+
+FoliageColor2: #FFFFFF
+
+FoliageColorIsMultiplier: false
+
+FogColor: #000000
+
+FogDensity: 0.5
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Resource queue                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+CustomStructure(GiantArch1,0.0,GiantArch2,0.0,GiantArch3,0.0,GiantArch4,0.0,GiantArch5,0.0,GiantArch6,0.0)
+CustomStructure(PrideRock1,0.0,PrideRock2,0.0,PrideRock3,0.0,PrideRock4,0.0,PrideRock5,0.0,PrideRock6,0.0)
+CustomStructure(SavannaCliffGiant1,1.0E-6,SavannaCliffGiant2,1.0E-6,SavannaCliffGiant3,1.0E-6,SavannaCliffGiant4,1.0E-6,SavannaCliffGiant5,1.0E-6,SavannaCliffLarge1,1.0E-6,SavannaCliffLarge2,1.0E-6,SavannaCliffLarge3,1.0E-6,SavannaCliffLarge4,1.0E-6,SavannaCliffLarge5,1.0E-6,SavannaCliffLarge6,1.0E-6,SavannaCliffLarge7,1.0E-6,SavannaCliffSmall1,1.0E-6)
+CustomStructure(MediumLakeGrass1,0.0,MediumLakeGrass2,0.0,MediumLakeGrass3,0.0,MediumLakeGrass4,0.0,GiantLakeGrass1,0.0,GiantLakeGrass2,1.0E-6,GiantLakeGrass3,1.0E-6,GiantLakeGrass4,1.0E-6,GiantLakeGrass5,1.0E-6,GiantLakeGrass6,1.0E-6,GiantLakeGrass7,1.0E-6,GiantLakeGrass8,1.0E-6)
+CustomStructure(PlateauLargeGrass1,100.0,PlateauLargeGrass2,100.0,PlateauLargeGrass3,100.0,PlateauLargeGrass4,100.0,PlateauLargeGrass5,100.0,PlateauLargeGrass6,100.0,GrassHill1,100.0)
+CustomStructure(smallcrater1,100.0,smallcrater2,100.0,mediumcrater1,100.0,largecrater1,100.0,smallwatercrater1,100.0,largewatercrater1,100.0)
+CustomStructure(LakeMountainGiant1,100.0,GrassVolcanoMagma1,100.0,GrassVolcanoMagma2-fixed,100.0,TripleLavaCrater1,100.0,Sinkhole2,1.0E-6)
+CustomStructure(SuperGiantCliffsGrass1,100.0,SuperGiantCliffsGrass2,100.0,SuperGiantCliffsGrass3,100.0,SuperGiantCliffsGrass4,100.0,SuperGiantCliffsGrass5,100.0,SuperGiantCliffsGrass6,100.0)
+CustomStructure(SuperGiantVolcanoGrass1,100.0,activevolcanomedium1,100.0,ActiveVolcanoMassive1,100.0,ActiveVolcanoMassive2,100.0,ActiveVolcanoMassive3,100.0,ActiveVolcanoMassive4,100.0,DormantVolcanoGrass,100.0,DormantVolcanoGrass2,100.0,DormantVolcanoGrass3,100.0,DormantVolcanoGrass5,100.0,DormantVolcanoGrass6,100.0,DormantVolcanoWithPlateau,100.0)
+CustomObject(claylargerock1,claylargerock2)
+CustomObject(ClayCliffClutter1,ClayCliffClutter2,ClayCliffClutter3,ClayCliffClutter4,ClayCliffClutter5,ClayCliffClutter6)
+CustomObject(ClayCliffClutter1,ClayCliffClutter2,ClayCliffClutter3,ClayCliffClutter4,ClayCliffClutter5,ClayCliffClutter6)
+Ore(DIRT:0,32,10,100.0,0,255,STONE:0)
+Ore(GRAVEL,32,8,100.0,0,255,STONE:0)
+Ore(STONE:1,32,10,100.0,0,62,STONE:0)
+Ore(STONE:3,32,10,100.0,0,62,STONE:0)
+Ore(STONE:5,32,10,100.0,0,62,STONE:0)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+UnderGroundLake(25,60,2,5.0,0,49)
+Liquid(FLOWING_WATER:0,20,100.0,8,128,STONE:0)
+Liquid(STATIONARY_LAVA:0,10,100.0,8,64,STONE:0)
+CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
+UnderWaterOre(SAND:0,7,3,100.0,DIRT:0,GRASS:0)
+UnderWaterOre(CLAY,4,2,100.0,DIRT:0,GRAVEL)
+UnderWaterOre(GRAVEL,6,1,100.0,DIRT:0,GRASS:0)
+Dungeon(8,100.0,0,128)
+Tree(3,OakDying1,10,OakDying2,10,OakDying3,10,OakDying4,10,OakDying5,10,OakDying6,10,ShrubOak1,5,ShrubOak2,5,ShrubOak3,5,ShrubOak4,5,ShrubOak5,5,ShrubOak6,5,ShrubOak7,5,ShrubOak8,5,ShrubOak9,5,OakDead1,1,OakDead2,1,OakDead3,1,OakDead4,1,OakDead5,1,OakDead6,1,OakDead7,1,OakDead8,1)
+Grass(Tallgrass,NotGrouped,30,100.0,GRASS:0,DIRT:0,DIRT:1,DIRT:2)
+Grass(DEAD_BUSH,NotGrouped,4,20.0,SAND:0,HARD_CLAY,STAINED_CLAY:0,DIRT:0)
+Grass(Fern,NotGrouped,20,100.0,GRASS:0,DIRT:0,DIRT:1,DIRT:2)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Sapling resource                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+InheritSaplingResource: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Custom objects                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeObjects: 
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Structures                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StrongholdsEnabled: true
+
+WoodLandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: true
+
+VillageType: savanna
+
+MineshaftType: normal
+
+MineshaftRarity: 0.5
+
+RareBuildingType: disabled
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SpawnMonsters: []
+
+SpawnCreatures: []
+
+SpawnWaterCreatures: []
+
+SpawnAmbientCreatures: []
+
+BiomeDictId: HOT, SAVANNA, PLAINS, SPARSE
+
+InheritMobsBiomeName: Savanna

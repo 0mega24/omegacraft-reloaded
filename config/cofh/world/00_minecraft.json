@@ -300,8 +300,8 @@
 				"min": 0,
 				"max": 0
 			},
-			"min-height": 4,
-			"max-height": 28,
+			"min-height": 0,
+			"max-height": 0,
 			"retrogen": false,
 			"biome": {
 				"restriction": "whitelist",

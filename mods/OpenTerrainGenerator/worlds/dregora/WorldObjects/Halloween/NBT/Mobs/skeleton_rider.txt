@@ -1,0 +1,1 @@
+{Tame:1,Passengers:[{id:"minecraft:skeleton",Attributes:[{Name:"generic.followRange",Base:50},{Name:"generic.knockbackResistance",Base:1f},{Name:"generic.movementSpeed",Base:0.4f},{Name:"generic.attackDamage",Base:4}],HandItems:[{id:"minecraft:bow",tag:{ench:[{id:50,lvl:1}]},Count:1},{id:"minecraft:shield",Count:1}]}]}

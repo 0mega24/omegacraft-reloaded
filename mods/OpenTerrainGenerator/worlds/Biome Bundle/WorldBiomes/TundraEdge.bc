@@ -22,7 +22,7 @@ BiomeRarity: 99
 
 BiomeColor: #C2FFAE
 
-ReplaceToBiomeName: minecraft:extreme_hills
+ReplaceToBiomeName: Extreme Hills
 
 ####################
 # Isle biomes only #
@@ -56,8 +56,6 @@ BiomeHeight: -1.8
 BiomeVolatility: 0.2
 
 SmoothRadius: 4
-
-CustomHeightControlSmoothRadius: 2
 
 MaxAverageHeight: 0.0
 
@@ -150,25 +148,11 @@ WaterColor: #AFC280
 
 GrassColor: #8F824A
 
-GrassColor2: #FFFFFF
-
 GrassColorIsMultiplier: false
 
 FoliageColor: #947637
 
-FoliageColor2: #FFFFFF
-
 FoliageColorIsMultiplier: false
-
-FogColor: #000000
-
-FogDensity: 0.5
-
-FogTimeWeight: 0.1
-
-FogRainWeight: 0.25
-
-FogThunderWeight: 0.5
 
 
 #######################################################################
@@ -218,8 +202,6 @@ Plant(OxeyeDaisy,20,50.0,41,139,GRASS,DIRT)
 # |                         Sapling resource                        | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
-
-InheritSaplingResource: false
 
 
 #######################################################################

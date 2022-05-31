@@ -1,0 +1,16 @@
+
+
+BranchFrequencyGroup: CanOverride:0
+
+CanOverride: true
+
+SmoothRadius: -1
+
+OverrideChildSettings: false
+
+ReplaceAbove:
+ReplaceBelow:
+
+MustBeInside: VillageGeneratorStructurePlaceHolder, VillageGeneratorStructuresDelay, VillageGeneratorStructuresDelay2, VillageGeneratorStructuresDelay3, VillageGeneratorStructuresDelay4, VillageGeneratorStructuresDelay5, VillageGeneratorStructuresDelay6, VillageGeneratorStructuresDelay7, VillageGeneratorStructuresDelay8, VillageGeneratorStructuresDelay9, VillageGeneratorStructuresDelay10
+
+Block(-8,0,-7,2)

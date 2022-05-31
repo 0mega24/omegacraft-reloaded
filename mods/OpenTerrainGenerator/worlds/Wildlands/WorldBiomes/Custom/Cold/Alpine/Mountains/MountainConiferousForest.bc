@@ -1,0 +1,284 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Biome Inheritance                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeExtends: 
+
+ResourceInheritance: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeSize: 5
+
+BiomeRarity: 100
+
+BiomeColor: #20B2AA
+
+ReplaceToBiomeName: MountainConiferous
+
+####################
+# Isle biomes only #
+####################
+
+IsleInBiome: 
+
+BiomeSizeWhenIsle: 10
+
+BiomeRarityWhenIsle: 100
+
+######################
+# Border biomes only #
+######################
+
+BiomeIsBorder: 
+
+NotBorderNear: 
+
+BiomeSizeWhenBorder: 8
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeHeight: 1.5
+
+BiomeVolatility: 3.2
+
+SmoothRadius: 24
+
+MaxAverageHeight: 0.0
+
+MaxAverageDepth: 0.0
+
+Volatility1: -2.0
+
+Volatility2: 0.0
+
+VolatilityWeight1: 1.5
+
+VolatilityWeight2: 1.45
+
+DisableBiomeHeight: false
+
+CustomHeightControl: 40.0, 40.0, 40.0, 40.0, 40.0, 40.0, 40.0, 80.0, 20.0, 21.0, 22.0, 23.0, 7.3, 7.4, 7.5, 7.6, 7.7, 7.8, 7.9, 8.0, 8.1, 8.2, 8.3, 8.4, 8.5, 8.6, 8.7, 8.8, 8.9, 9.0, 9.1, 9.2, 9.3
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Rivers                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+########################
+# ImprovedRivers:false #
+########################
+
+RiverBiome: RiverConiferAndesite
+
+#######################
+# ImprovedRivers:true #
+#######################
+
+RiverHeight: -1.0
+
+RiverVolatility: 0.3
+
+RiverWaterLevel: 63
+
+RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StoneBlock: STONE:0
+
+SurfaceBlock: GRAVEL
+
+GroundBlock: DIRT:0
+
+SurfaceAndGroundControl: GRAVEL, STONE:3, -6.0, SNOW_BLOCK, SNOW_BLOCK, -5.0, GRAVEL, STONE:3, -4.0, SNOW_BLOCK, SNOW_BLOCK, -3.0, GRAVEL, STONE:3, -2.0, SNOW_BLOCK, SNOW_BLOCK, -1.0, GRAVEL, STONE:3, 0.0, SNOW_BLOCK, SNOW_BLOCK, 1.0, GRAVEL, STONE:3, 2.0, SNOW_BLOCK, SNOW_BLOCK, 3.0, GRAVEL, STONE:3, 4.0, SNOW_BLOCK, SNOW_BLOCK, 5.0, GRAVEL, STONE:3, 6.0 
+
+ReplacedBlocks: (GRAVEL,GRASS,62,63),(GRAVEL,STONE:3,64,89),(GRAVEL,GRASS:0,90,120),(SNOW_BLOCK,DIRT:0,0,61),(SNOW_BLOCK,GRASS,62,63),(SNOW_BLOCK,STONE:3,64,120),(GRAVEL,STONE:3,121,255),(DIRT:0,STONE:3,121,255),(STONE,STONE:3,62,255)
+
+################################
+# Water / Lava & Frozen States #
+################################
+
+UseWorldWaterLevel: true
+
+WaterLevelMax: 63
+
+WaterLevelMin: 0
+
+WaterBlock: STATIONARY_WATER:0
+
+IceBlock: ICE
+
+CooledLavaBlock: STATIONARY_LAVA:0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                       Visuals and weather                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeTemperature: 0.25
+
+BiomeWetness: 0.3
+
+SkyColor: #7BA5FF
+
+WaterColor: #FFFFFF
+
+GrassColor: #81BA65
+
+GrassColor2: #FFFFFF
+
+GrassColorIsMultiplier: false
+
+FoliageColor: #FFFFFF
+
+FoliageColor2: #FFFFFF
+
+FoliageColorIsMultiplier: true
+
+FogColor: #000000
+
+FogDensity: 0.5
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Resource queue                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+CustomStructure(MountainBuildup1,100.0,MountainBuildup2,100.0,MountainBuildup3,100.0,MountainBuildup4,100.0,MountainBuildup5,100.0,MountainBuildup6,100.0,MountainBuildup7,100.0,MountainBuildup8,100.0)
+CustomStructure(HighlandsRockSmall1,100.0,HighlandsRockSmall2,0.0,HighlandsRockSmall3,100.0,HighlandsRockMedium1,100.0,HighlandsRockMedium2,100.0,HighlandsRockMedium3,100.0,HighlandsRockMedium4,100.0,HighlandsRockLarge1,100.0,HighlandsRockLarge2,100.0)
+CustomStructure(SuperGiantCliffsGrass1,1.0E-6,SuperGiantCliffsGrass2,1.0E-6,SuperGiantCliffsGrass2,1.0E-6,SuperGiantCliffsGrass4,1.0E-6,SuperGiantCliffsGrass5,1.0E-6,SuperGiantCliffsGrass6,1.0E-6,MediumCliffGrass1,1.0E-6,MediumCliffGrass2,1.0E-6,MediumCliffGrass3,1.0E-6,MediumCliffGrass4,1.0E-6,MediumCliffGrass5,1.0E-6,MediumCliffGrass6,1.0E-6,GrassRidgeSmall1,1.0E-6,GrassRidgeMedium1,1.0E-6,GrassRidgeMedium2,1.0E-6,GrassRidgeMedium3,1.0E-6,GrassRidgeMedium4,1.0E-6,GrassRidgeMedium5,1.0E-6,GrassRidgeMedium6,1.0E-6,GrassRidgeMedium7,1.0E-6,GrassRidgeMedium8,1.0E-6,GrassRidgeMedium9,1.0E-6,SmallCliffGrass1,1.0E-6,SmallCliffGrass2,1.0E-6,SmallCliffGrass3,1.0E-6,SmallCliffGrass4,1.0E-6,SmallCliffGrass5,1.0E-6,SmallCliffGrass6,1.0E-6,largegrasscliff1,1.0E-6,largegrasscliff2,1.0E-6,largegrasscliff3,1.0E-6,largerockycliffclay,1.0E-6)
+CustomStructure(PlateauLargeGrass1,1.0E-6,PlateauLargeGrass2,1.0E-6,PlateauLargeGrass3,1.0E-6,PlateauLargeGrass4,1.0E-6,PlateauLargeGrass5,1.0E-6,PlateauLargeGrass6,1.0E-6)
+CustomStructure(WaterfallMountain1,100.0,TerracedMountain1,100.0,TerracedMountain2,100.0,SpikySmallMountain1,100.0,SpikySmallMountain2,100.0,SpikySmallMountain3,100.0,SpikySmallMountain4,100.0,GrassySmallMountain1,100.0,GrassySmallMountain2,100.0,GrassMountainSmall1,100.0,GrassMountainSmall2,100.0,GrassMountainSmall3,100.0,GrassMountain1,100.0,GrassMountain2,100.0,GrassMountain3,100.0,GrassMountain4,100.0,GrassMountain5,100.0,MountainTallGrass1,0.0,GrassHill1,100.0)
+CustomStructure(GiantGlacierMountain1,100.0,GiantGlacierMountain2,100.0,SnowyMountainMassive1,100.0,SnowMountain1,100.0,SnowMountain2,100.0,SnowMountain3,100.0,SnowMountain4,100.0,SnowMountain5,100.0,SnowMountainSmall1,100.0,CliffMountainSnowy1,100.0,CliffMountainSnowy2,100.0,CliffMountainGrass1,100.0,CliffMountainGrass2,100.0,CliffMountainGrass3,100.0,CliffMountainGrass4,100.0)
+CustomStructure(Caldera1,1.0E-6,CalderaMedium1,0.0,DormantVolcanoGrass,1.0E-6,DormantVolcanoGrass2,1.0E-6,DormantVolcanoGrass3,1.0E-6,DormantVolcanoGrass5,1.0E-6,DormantVolcanoGrass6,1.0E-6,DormantVolcanoWithPlateau,1.0E-6)
+CustomStructure(BoulderCluster1,100.0,BoulderCluster2,100.0,BoulderCluster3,100.0,LargeGrassyBoulder1,100.0,LargeGrassyBoulder2,100.0,LargeGrassyBoulder3,100.0,LargeGrassyBoulder4,100.0,LargeGrassyBoulder5,100.0,anotherboulder1,100.0,anotherboulder2,100.0,anotherboulder3,100.0,anotherboulder4,100.0,anotherboulder5,100.0,anotherboulder6,100.0,anotherboulder7,100.0,anotherboulder8,100.0,anotherboulder9,100.0,anotherboulder10,100.0,anotherboulder11,100.0,anotherboulder12,100.0,BoulderCliffs1,100.0,BoulderCliffs2,100.0,BoulderCliffs3,100.0,BoulderCliffs4,100.0,BoulderCliffs5,100.0,BoulderCliffs6,100.0,GiantBoulderStone1,100.0,GiantBoulderStone2,100.0,GiantBoulderStone3,100.0,HugeRock1,100.0,HugeRock2,100.0,HugeRock3,100.0,HugeRock4,100.0,HugeRock5,100.0,HugeRock6,100.0,HugeRock7,100.0,HugeRock8,100.0,HugeRock9,100.0)
+CustomStructure(FlatClayDeposit1,1.0E-6,FlatClayDeposit2,1.0E-6,ErosionPattern1,1.0E-6,coarsedirtpatch1,1.0E-6,rockpatch,1.0E-6,gravelpatch,1.0E-6,SmallCliffPatchGrass1,1.0E-6)
+CustomStructure(SpruceDamagedTreeLarge1,1.0E-6,FallenTree1,1.0E-6,FallenTree2,1.0E-6,FallenTree3,1.0E-6,FallenTree4,1.0E-6,FallenTree5,1.0E-6,FallenTree7,1.0E-6,FallenTree8,1.0E-6)
+SurfacePatch(DIRT:2,AIR,86,122,STONE:0,STONE:3,GRAVEL)
+SurfacePatch(SNOW_BLOCK,AIR,142,255,STONE:0,STONE:3)
+Ore(STONE:0,8,30,100.0,120,130,SNOW_BLOCK)
+Ore(STONE:0,32,30,100.0,100,125,SNOW_BLOCK)
+Ore(STONE:0,32,30,100.0,100,135,SNOW_BLOCK)
+Ore(STONE:0,32,30,100.0,100,145,SNOW_BLOCK)
+Ore(DIRT:0,32,10,100.0,0,79,STONE:0)
+Ore(STONE:1,32,10,100.0,0,62,STONE:0)
+Ore(STONE:3,32,10,100.0,0,62,STONE:0)
+Ore(STONE:5,32,10,100.0,0,62,STONE:0)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+Ore(EMERALD_ORE,5,1,100.0,4,31,STONE:0)
+Ore(EMERALD_ORE,5,1,100.0,4,31,STONE:0)
+Ore(SNOW_BLOCK,16,100,75.0,115,125,STONE:0,STONE:3)
+Ore(SNOW_BLOCK,16,100,75.0,126,132,STONE:0,STONE:3)
+Ore(SNOW_BLOCK,16,100,75.0,133,182,STONE:0,STONE:3)
+Ore(SNOW_BLOCK,16,100,100.0,183,255,STONE:0,STONE:3)
+Ore(PACKED_ICE,16,100,55.0,143,182,STONE:0,STONE:3)
+Ore(PACKED_ICE,16,100,77.0,183,255,STONE:0,STONE:3)
+Ore(PACKED_ICE,16,100,99.0,200,255,STONE:0,STONE:3)
+UnderGroundLake(25,60,2,5.0,0,49)
+Liquid(FLOWING_WATER:0,20,100.0,8,128,STONE:0)
+UnderWaterOre(SAND:0,7,3,100.0,DIRT:0,GRASS:0)
+UnderWaterOre(CLAY,4,2,100.0,DIRT:0,GRAVEL)
+UnderWaterOre(GRAVEL,6,1,100.0,DIRT:0,GRASS:0)
+Dungeon(8,100.0,0,128)
+Tree(15,SpruceFirSmall1(minheight=86;maxheight=122),5,SpruceFirSmall2(minheight=86;maxheight=122),5,SpruceFirSmall3(minheight=86;maxheight=122),5,SpruceFirSmall4(minheight=86;maxheight=122),5,SpruceFirSmall5(minheight=86;maxheight=122),5,SpruceFirSmall6(minheight=86;maxheight=122),5,SpruceFirSmall7(minheight=86;maxheight=122),5,SpruceFirSmall8(minheight=86;maxheight=122),5,SpruceFirSmall9(minheight=86;maxheight=122),5,SpruceFirSmall10(minheight=86;maxheight=122),5,SpruceFirSmall11(minheight=86;maxheight=122),5,SpruceFirSmall12(minheight=86;maxheight=122),5,SpruceFirSmall13(minheight=86;maxheight=122),5,SpruceFirSmall14(minheight=86;maxheight=122),5,SprucePinyon1(minheight=86;maxheight=122),5,SprucePinyon2(minheight=86;maxheight=122),5,SprucePinyon3(minheight=86;maxheight=122),5,SprucePinyon4(minheight=86;maxheight=122),5,SprucePinyon5(minheight=86;maxheight=122),5,SpruceFir1(minheight=86;maxheight=122),5,SpruceFir2(minheight=86;maxheight=122),5,SpruceFir3(minheight=86;maxheight=122),5,SpruceFir4(minheight=86;maxheight=122),5,SpruceFir5(minheight=86;maxheight=122),5,BlackSpruceS1(minheight=86;maxheight=122),5,BlackSpruceS2(minheight=86;maxheight=122),5,BlackSpruceS3(minheight=86;maxheight=122),5,BlackSpruceS4(minheight=86;maxheight=122),5)
+Grass(Tallgrass,NotGrouped,10,100.0,GRASS:0,DIRT:0,DIRT:1,DIRT:2)
+Plant(Dandelion,4,100.0,0,128,GRASS:0,DIRT:0,DIRT:1,DIRT:2)
+Plant(PUMPKIN:2,1,3.0,0,128,GRASS:0)
+Plant(SNOW_LAYER,80,60.0,120,250,GRASS:0,DIRT:0,LEAVES:8,STONE:0,STONE:3,GRAVEL,PACKED_ICE,SNOW_BLOCK,ICE,DIRT:1)
+Plant(SNOW_LAYER,80,60.0,150,250,GRASS:0,DIRT:0,LEAVES:8,STONE:0,STONE:3,GRAVEL,PACKED_ICE,SNOW_BLOCK,ICE,DIRT:1)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Sapling resource                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+InheritSaplingResource: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Custom objects                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeObjects: 
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Structures                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StrongholdsEnabled: true
+
+WoodLandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: true
+
+VillageType: disabled
+
+MineshaftType: normal
+
+MineshaftRarity: 0.5
+
+RareBuildingType: disabled
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SpawnMonsters: []
+
+SpawnCreatures: []
+
+SpawnWaterCreatures: []
+
+SpawnAmbientCreatures: []
+
+BiomeDictId: COLD, CONIFEROUS, FOREST, MOUNTAIN, HILLS
+
+InheritMobsBiomeName: Extreme Hills
+

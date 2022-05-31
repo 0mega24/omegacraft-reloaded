@@ -1,0 +1,256 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Biome Inheritance                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeExtends: 
+
+ResourceInheritance: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeSize: 7
+
+BiomeRarity: 100
+
+BiomeColor: #056621
+
+ReplaceToBiomeName: 
+
+####################
+# Isle biomes only #
+####################
+
+IsleInBiome: VerdantCliffs
+
+BiomeSizeWhenIsle: 9
+
+BiomeRarityWhenIsle: 97
+
+######################
+# Border biomes only #
+######################
+
+BiomeIsBorder: 
+
+NotBorderNear: 
+
+BiomeSizeWhenBorder: 11
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeHeight: 0.1
+
+BiomeVolatility: -0.1
+
+SmoothRadius: 12
+
+MaxAverageHeight: 0.0
+
+MaxAverageDepth: 0.0
+
+Volatility1: -2.5
+
+Volatility2: 0.0
+
+VolatilityWeight1: 1.5
+
+VolatilityWeight2: 1.45
+
+DisableBiomeHeight: false
+
+CustomHeightControl: 40.0, 40.0, 40.0, 40.0, 40.0, 35.0, 25.0, 17.0, 0.0, -1.0, -1.5, 1.8, 3.0, 5.5, 8.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Rivers                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+########################
+# ImprovedRivers:false #
+########################
+
+RiverBiome: LushRiver
+
+#######################
+# ImprovedRivers:true #
+#######################
+
+RiverHeight: -1.0
+
+RiverVolatility: 0.3
+
+RiverWaterLevel: 63
+
+RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StoneBlock: STONE
+
+SurfaceBlock: GRASS
+
+GroundBlock: DIRT
+
+SurfaceAndGroundControl: 
+
+ReplacedBlocks: None
+
+################################
+# Water / Lava & Frozen States #
+################################
+
+UseWorldWaterLevel: true
+
+WaterLevelMax: 63
+
+WaterLevelMin: 0
+
+WaterBlock: STATIONARY_WATER
+
+IceBlock: ICE
+
+CooledLavaBlock: STATIONARY_LAVA
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                       Visuals and weather                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeTemperature: 0.7
+
+BiomeWetness: 0.85
+
+SkyColor: #7BA5FF
+
+WaterColor: #FFFFFF
+
+GrassColor: #8CF02B
+
+GrassColorIsMultiplier: false
+
+FoliageColor: #42C421
+
+FoliageColorIsMultiplier: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Resource queue                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+CustomStructure(GrassOverhang1,100.0,GrassOverhang2,100.0,GrassOverhang3,100.0,GrassOverhang4,100.0,GrassOverhang5,100.0,grassoverhanggroup1,100.0,grassoverhanggroup2,100.0)
+CustomStructure(LakeMountainGiant1,100.0,GrassVolcanoMagma1,100.0,GrassVolcanoMagma2-fixed,100.0,TripleLavaCrater1,100.0,Sinkhole2,0.0)
+CustomStructure(SuperGiantCliffsGrass1,100.0,SuperGiantCliffsGrass2,100.0,SuperGiantCliffsGrass2,100.0,SuperGiantCliffsGrass4,100.0,SuperGiantCliffsGrass5,100.0,SuperGiantCliffsGrass6,100.0)
+CustomStructure(VolcanoMega1,100.0,EpicVolcano1,100.0,EpicVolcano3,100.0,EpicVolcano4,100.0,SuperGiantVolcanoGrass1,100.0,activevolcanomedium1,100.0,ActiveVolcanoMassive1,100.0,ActiveVolcanoMassive2,100.0,DormantVolcanoGrass,100.0,DormantVolcanoGrass2,100.0,DormantVolcanoGrass3,100.0,DormantVolcanoGrass4,100.0,DormantVolcanoGrass5,100.0,DormantVolcanoGrass6,100.0)
+CustomStructure(SmallCliffGrass1,100.0,SmallCliffGrass2,100.0,SmallCliffGrass3,100.0,SmallCliffGrass4,100.0,SmallCliffGrass5,100.0,SmallCliffGrass6,100.0,LargeGrassyBoulder1,100.0,LargeGrassyBoulder2,100.0,LargeGrassyBoulder3,100.0,LargeGrassyBoulder4,100.0,LargeGrassyBoulder5,100.0)
+Ore(DIRT,33,10,100.0,0,255,STONE:0)
+Ore(GRAVEL,33,8,100.0,0,255,STONE:0)
+Ore(STONE:1,33,10,100.0,0,62,STONE:0)
+Ore(STONE:3,33,10,100.0,0,62,STONE:0)
+Ore(STONE:5,33,10,100.0,0,62,STONE:0)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+UnderGroundLake(25,60,2,5.0,0,49)
+Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(LAVA,10,100.0,8,128,STONE:0)
+CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
+UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
+UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
+UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
+Dungeon(8,100.0,0,128)
+Tree(6,JungleTiny1,5,JungleTiny2,5,JungleTiny3,5,JungleTiny4,5,JungleTiny5,5,JungleTiny6,5,JungleTiny7,5,JungleSmall1,3,JungleSmall2,3,JungleSmall3,3,JungleSmall4,3,JungleSmall5,3,JungleMed1,10,JungleMed2,10,JungleMed3,10,JungleMed4,10,JungleMed5,10,JungleMed6,10,JungleMed7,10)
+Grass(Tallgrass,NotGrouped,15,100.0,GRASS,DIRT)
+Plant(Poppy,4,100.0,0,128,GRASS,DIRT)
+Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
+Plant(Lilac,2,100.0,0,128,GRASS,DIRT)
+Plant(RoseBush,2,100.0,0,128,GRASS,DIRT)
+Plant(Peony,2,100.0,0,128,GRASS,DIRT)
+Plant(RedMushroom,1,12.0,0,128,GRASS,DIRT)
+Plant(BrownMushroom,1,25.0,0,128,GRASS,DIRT)
+Plant(PUMPKIN,1,3.0,0,128,GRASS)
+Reed(SUGAR_CANE_BLOCK,3,100.0,0,128,GRASS,DIRT,SAND)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Sapling resource                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Custom objects                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeObjects: 
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Structures                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StrongholdsEnabled: true
+
+WoodLandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: true
+
+VillageType: disabled
+
+MineshaftType: normal
+
+MineshaftRarity: 1.0
+
+RareBuildingType: disabled
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SpawnMonsters: []
+
+SpawnCreatures: []
+
+SpawnWaterCreatures: []
+
+SpawnAmbientCreatures: []
+
+BiomeDictId: FOREST
+
+InheritMobsBiomeName: Forest
+

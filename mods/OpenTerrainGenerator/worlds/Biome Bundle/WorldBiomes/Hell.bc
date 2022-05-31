@@ -22,8 +22,6 @@ BiomeRarity: 100
 
 BiomeColor: #FF0000
 
-ReplaceToBiomeName: minecraft:hell
-
 ####################
 # Isle biomes only #
 ####################
@@ -56,8 +54,6 @@ BiomeHeight: 0.44
 BiomeVolatility: 0.2
 
 SmoothRadius: 2
-
-CustomHeightControlSmoothRadius: 2
 
 MaxAverageHeight: 0.0
 
@@ -150,25 +146,11 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
-GrassColor2: #FFFFFF
-
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
 
-FoliageColor2: #FFFFFF
-
 FoliageColorIsMultiplier: true
-
-FogColor: #000000
-
-FogDensity: 0.5
-
-FogTimeWeight: 0.1
-
-FogRainWeight: 0.25
-
-FogThunderWeight: 0.5
 
 
 #######################################################################
@@ -195,8 +177,6 @@ Liquid(LAVA,10,100.0,19,139,STONE:0)
 # |                         Sapling resource                        | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
-
-InheritSaplingResource: false
 
 
 #######################################################################
@@ -237,7 +217,7 @@ RareBuildingType: disabled
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-SpawnMonsters: [{"mob": "minecraft:ghast", "weight": 50, "min": 4, "max": 4}, {"mob": "minecraft:zombie_pigman", "weight": 100, "min": 4, "max": 4}, {"mob": "minecraft:magma_cube", "weight": 2, "min": 4, "max": 4}, {"mob": "minecraft:enderman", "weight": 1, "min": 4, "max": 4}]
+SpawnMonsters: [{"mob": "ghast", "weight": 50, "min": 4, "max": 4}, {"mob": "zombie_pigman", "weight": 100, "min": 4, "max": 4}, {"mob": "magma_cube", "weight": 2, "min": 4, "max": 4}, {"mob": "enderman", "weight": 1, "min": 4, "max": 4}]
 
 SpawnCreatures: []
 

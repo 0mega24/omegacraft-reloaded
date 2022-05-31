@@ -57,8 +57,6 @@ BiomeVolatility: 0.4
 
 SmoothRadius: 8
 
-CustomHeightControlSmoothRadius: 2
-
 MaxAverageHeight: 0.0
 
 MaxAverageDepth: 0.0
@@ -150,25 +148,11 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
-GrassColor2: #FFFFFF
-
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
 
-FoliageColor2: #FFFFFF
-
 FoliageColorIsMultiplier: true
-
-FogColor: #000000
-
-FogDensity: 0.5
-
-FogTimeWeight: 0.1
-
-FogRainWeight: 0.25
-
-FogThunderWeight: 0.5
 
 
 #######################################################################
@@ -229,8 +213,6 @@ Ore(GRAVEL,5,30,100.0,75,139,GRASS)
 # |                         Sapling resource                        | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
-
-InheritSaplingResource: false
 
 
 #######################################################################

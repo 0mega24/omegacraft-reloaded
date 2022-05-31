@@ -1,0 +1,252 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Biome Inheritance                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeExtends: 
+
+ResourceInheritance: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeSize: 4
+
+BiomeRarity: 100
+
+BiomeColor: #72789A
+
+ReplaceToBiomeName: LushForest
+
+####################
+# Isle biomes only #
+####################
+
+IsleInBiome: 
+
+BiomeSizeWhenIsle: 6
+
+BiomeRarityWhenIsle: 97
+
+######################
+# Border biomes only #
+######################
+
+BiomeIsBorder: 
+
+NotBorderNear: JungleMountainSummit, JungleMountainLake
+
+BiomeSizeWhenBorder: 11
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeHeight: 2.0
+
+BiomeVolatility: 0.1
+
+SmoothRadius: 12
+
+MaxAverageHeight: 0.0
+
+MaxAverageDepth: 0.0
+
+Volatility1: -2.5
+
+Volatility2: 0.0
+
+VolatilityWeight1: 1.5
+
+VolatilityWeight2: 1.45
+
+DisableBiomeHeight: false
+
+CustomHeightControl: 40.0, 40.0, 40.0, 40.0, 40.0, 35.0, 25.0, 17.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Rivers                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+########################
+# ImprovedRivers:false #
+########################
+
+RiverBiome: LushRiver
+
+#######################
+# ImprovedRivers:true #
+#######################
+
+RiverHeight: -1.0
+
+RiverVolatility: 0.3
+
+RiverWaterLevel: 63
+
+RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StoneBlock: STONE
+
+SurfaceBlock: GRAVEL
+
+GroundBlock: DIRT
+
+SurfaceAndGroundControl: 
+
+ReplacedBlocks: (GRAVEL,SAND:1,61,62),(GRAVEL,GRASS,63,255),(STONE,HARD_CLAY,63,67),(STONE,STAINED_CLAY:4,68,68),(STONE,STAINED_CLAY:1,69,74),(STONE,STAINED_CLAY:14,75,76),(STONE,STAINED_CLAY:4,77,77),(STONE,STAINED_CLAY:14,78,78),(STONE,STAINED_CLAY:1,79,84),(STONE,STAINED_CLAY:14,85,85),(STONE,STAINED_CLAY:4,86,87),(STONE,STAINED_CLAY:1,88,89),(STONE,STAINED_CLAY:4,90,90),(STONE,STAINED_CLAY:14,91,91),(STONE,STAINED_CLAY:1,92,96),(STONE,STAINED_CLAY:4,97,97),(STONE,STAINED_CLAY:14,98,98),(STONE,STAINED_CLAY:4,99,99),(STONE,STAINED_CLAY:1,100,104),(STONE,STAINED_CLAY:14,105,106),(STONE,STAINED_CLAY:4,107,107),(STONE,STAINED_CLAY:14,108,108),(STONE,STAINED_CLAY:1,109,114),(STONE,STAINED_CLAY:14,115,115),(STONE,STAINED_CLAY:4,116,117),(STONE,STAINED_CLAY:1,118,119),(STONE,STAINED_CLAY:4,120,120),(STONE,STAINED_CLAY:14,121,121),(STONE,STAINED_CLAY:1,122,126),(STONE,STAINED_CLAY:4,127,127),(STONE,STAINED_CLAY:14,128,128),(STONE,STAINED_CLAY:4,129,129),(STONE,STAINED_CLAY:1,130,134),(STONE,STAINED_CLAY:14,135,136),(STONE,STAINED_CLAY:4,137,137),(STONE,STAINED_CLAY:14,138,138),(STONE,STAINED_CLAY:1,139,144),(STONE,STAINED_CLAY:14,145,145),(STONE,STAINED_CLAY:4,146,147),(STONE,STAINED_CLAY:1,148,149),(STONE,STAINED_CLAY:4,150,150),(STONE,STAINED_CLAY:14,151,151),(STONE,STAINED_CLAY:1,152,156),(STONE,STAINED_CLAY:4,157,157),(STONE,STAINED_CLAY:14,158,158),(STONE,STAINED_CLAY:4,159,159),(STONE,STAINED_CLAY:1,160,164),(STONE,STAINED_CLAY:14,165,166),(STONE,STAINED_CLAY:4,167,167),(STONE,STAINED_CLAY:14,168,168),(STONE,STAINED_CLAY:1,169,174),(STONE,STAINED_CLAY:14,175,175),(STONE,STAINED_CLAY:4,176,177),(STONE,STAINED_CLAY:1,178,179),(STONE,STAINED_CLAY:4,180,180),(STONE,STAINED_CLAY:14,181,181),(STONE,STAINED_CLAY:1,182,186),(STONE,STAINED_CLAY:4,187,187),(STONE,STAINED_CLAY:14,188,188),(STONE,STAINED_CLAY:4,189,189),(STONE,STAINED_CLAY:1,190,194),(STONE,STAINED_CLAY:14,195,196),(STONE,STAINED_CLAY:4,197,197),(STONE,STAINED_CLAY:14,198,198),(STONE,STAINED_CLAY:1,199,204),(STONE,STAINED_CLAY:14,205,205),(STONE,STAINED_CLAY:4,206,207),(STONE,STAINED_CLAY:1,208,209),(STONE,STAINED_CLAY:4,210,210),(STONE,STAINED_CLAY:14,211,211),(STONE,STAINED_CLAY:1,212,216),(STONE,STAINED_CLAY:4,217,217),(STONE,STAINED_CLAY:14,218,218),(STONE,STAINED_CLAY:4,219,219),(STONE,STAINED_CLAY:1,220,224),(STONE,STAINED_CLAY:14,225,226),(STONE,STAINED_CLAY:4,227,227),(STONE,STAINED_CLAY:14,228,228),(STONE,STAINED_CLAY:1,229,234),(STONE,STAINED_CLAY:14,235,235),(STONE,STAINED_CLAY:4,236,237),(STONE,STAINED_CLAY:1,238,239),(STONE,STAINED_CLAY:4,240,240),(STONE,STAINED_CLAY:14,241,241),(STONE,STAINED_CLAY:1,242,246),(STONE,STAINED_CLAY:4,247,247),(STONE,STAINED_CLAY:14,248,255),(HARD_CLAY,STAINED_CLAY:4,68,68),(HARD_CLAY,STAINED_CLAY:1,69,74),(HARD_CLAY,STAINED_CLAY:14,75,76),(HARD_CLAY,STAINED_CLAY:4,77,77),(HARD_CLAY,STAINED_CLAY:14,78,78),(HARD_CLAY,STAINED_CLAY:1,79,84),(HARD_CLAY,STAINED_CLAY:14,85,85),(HARD_CLAY,STAINED_CLAY:4,86,87),(HARD_CLAY,STAINED_CLAY:1,88,89),(HARD_CLAY,STAINED_CLAY:4,90,90),(HARD_CLAY,STAINED_CLAY:14,91,91),(HARD_CLAY,STAINED_CLAY:1,92,96),(HARD_CLAY,STAINED_CLAY:4,97,97),(HARD_CLAY,STAINED_CLAY:14,98,98),(HARD_CLAY,STAINED_CLAY:4,99,99),(HARD_CLAY,STAINED_CLAY:1,100,104),(HARD_CLAY,STAINED_CLAY:14,105,106),(HARD_CLAY,STAINED_CLAY:4,107,107),(HARD_CLAY,STAINED_CLAY:14,108,108),(HARD_CLAY,STAINED_CLAY:1,109,114),(HARD_CLAY,STAINED_CLAY:14,115,115),(HARD_CLAY,STAINED_CLAY:4,116,117),(HARD_CLAY,STAINED_CLAY:1,118,119),(HARD_CLAY,STAINED_CLAY:4,120,120),(HARD_CLAY,STAINED_CLAY:14,121,121),(HARD_CLAY,STAINED_CLAY:1,122,126),(HARD_CLAY,STAINED_CLAY:4,127,127),(HARD_CLAY,STAINED_CLAY:14,128,128),(HARD_CLAY,STAINED_CLAY:4,129,129),(HARD_CLAY,STAINED_CLAY:1,130,134),(HARD_CLAY,STAINED_CLAY:14,135,136),(HARD_CLAY,STAINED_CLAY:4,137,137),(HARD_CLAY,STAINED_CLAY:14,138,138),(HARD_CLAY,STAINED_CLAY:1,139,144),(HARD_CLAY,STAINED_CLAY:14,145,145),(HARD_CLAY,STAINED_CLAY:4,146,147),(HARD_CLAY,STAINED_CLAY:1,148,149),(HARD_CLAY,STAINED_CLAY:4,150,150),(HARD_CLAY,STAINED_CLAY:14,151,151),(HARD_CLAY,STAINED_CLAY:1,152,156),(HARD_CLAY,STAINED_CLAY:4,157,157),(HARD_CLAY,STAINED_CLAY:14,158,158),(HARD_CLAY,STAINED_CLAY:4,159,159),(HARD_CLAY,STAINED_CLAY:1,160,164),(HARD_CLAY,STAINED_CLAY:14,165,166),(HARD_CLAY,STAINED_CLAY:4,167,167),(HARD_CLAY,STAINED_CLAY:14,168,168),(HARD_CLAY,STAINED_CLAY:1,169,174),(HARD_CLAY,STAINED_CLAY:14,175,175),(HARD_CLAY,STAINED_CLAY:4,176,177),(HARD_CLAY,STAINED_CLAY:1,178,179),(HARD_CLAY,STAINED_CLAY:4,180,180),(HARD_CLAY,STAINED_CLAY:14,181,181),(HARD_CLAY,STAINED_CLAY:1,182,186),(HARD_CLAY,STAINED_CLAY:4,187,187),(HARD_CLAY,STAINED_CLAY:14,188,188),(HARD_CLAY,STAINED_CLAY:4,189,189),(HARD_CLAY,STAINED_CLAY:1,190,194),(HARD_CLAY,STAINED_CLAY:14,195,196),(HARD_CLAY,STAINED_CLAY:4,197,197),(HARD_CLAY,STAINED_CLAY:14,198,198),(HARD_CLAY,STAINED_CLAY:1,199,204),(HARD_CLAY,STAINED_CLAY:14,205,205),(HARD_CLAY,STAINED_CLAY:4,206,207),(HARD_CLAY,STAINED_CLAY:1,208,209),(HARD_CLAY,STAINED_CLAY:4,210,210),(HARD_CLAY,STAINED_CLAY:14,211,211),(HARD_CLAY,STAINED_CLAY:1,212,216),(HARD_CLAY,STAINED_CLAY:4,217,217),(HARD_CLAY,STAINED_CLAY:14,218,218),(HARD_CLAY,STAINED_CLAY:4,219,219),(HARD_CLAY,STAINED_CLAY:1,220,224),(HARD_CLAY,STAINED_CLAY:14,225,226),(HARD_CLAY,STAINED_CLAY:4,227,227),(HARD_CLAY,STAINED_CLAY:14,228,228),(HARD_CLAY,STAINED_CLAY:1,229,234),(HARD_CLAY,STAINED_CLAY:14,235,235),(HARD_CLAY,STAINED_CLAY:4,236,237),(HARD_CLAY,STAINED_CLAY:1,238,239),(HARD_CLAY,STAINED_CLAY:4,240,240),(HARD_CLAY,STAINED_CLAY:14,241,241),(HARD_CLAY,STAINED_CLAY:1,242,246),(HARD_CLAY,STAINED_CLAY:4,247,247),(HARD_CLAY,STAINED_CLAY:14,248,255)
+
+################################
+# Water / Lava & Frozen States #
+################################
+
+UseWorldWaterLevel: true
+
+WaterLevelMax: 63
+
+WaterLevelMin: 0
+
+WaterBlock: STATIONARY_WATER
+
+IceBlock: ICE
+
+CooledLavaBlock: STATIONARY_LAVA
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                       Visuals and weather                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeTemperature: 0.85
+
+BiomeWetness: 0.9
+
+SkyColor: #7BA5FF
+
+WaterColor: #FFFFFF
+
+GrassColor: #7CFC00
+
+GrassColorIsMultiplier: false
+
+FoliageColor: #7CFC00
+
+FoliageColorIsMultiplier: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Resource queue                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+CustomStructure(GiantClayPillar2,0.0,GiantClayPillar3,0.0,GiantClayPillar4,0.0,GiantClayPillar5,0.0,GiantClayPillar6,0.0,GiantClayPillar8,0.0,GiantClayPillar9,0.0,GiantClayPillar10,0.0)
+CustomStructure(LakeMountainGiant1,0.0,GrassVolcanoMagma1,0.0,GrassVolcanoMagma2-fixed,0.0,TripleLavaCrater1,0.0,Sinkhole2,0.0)
+CustomStructure(SuperGiantCliffsGrass1,0.0,SuperGiantCliffsGrass2,0.0,SuperGiantCliffsGrass2,0.0,SuperGiantCliffsGrass4,0.0,SuperGiantCliffsGrass5,0.0,SuperGiantCliffsGrass6,0.0)
+CustomStructure(VolcanoMega1,0.0,EpicVolcano1,0.0,EpicVolcano3,0.0,EpicVolcano4,0.0,SuperGiantVolcanoGrass1,0.0,DormantVolcanoGrass,100.0,DormantVolcanoGrass2,100.0,DormantVolcanoGrass3,100.0,DormantVolcanoGrass4,100.0,DormantVolcanoGrass5,100.0,DormantVolcanoGrass6,100.0)
+Ore(DIRT,33,10,100.0,0,255,STONE:0)
+Ore(GRAVEL,33,8,100.0,0,255,STONE:0)
+Ore(STONE:1,33,10,100.0,0,62,STONE:0)
+Ore(STONE:3,33,10,100.0,0,62,STONE:0)
+Ore(STONE:5,33,10,100.0,0,62,STONE:0)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE:0)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE:0)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE:0)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE:0)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE:0)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE:0)
+SurfacePatch(GRASS,AIR,64,128,Solid)
+UnderGroundLake(25,60,2,5.0,0,49)
+Liquid(WATER,20,100.0,8,128,STONE:0)
+Liquid(LAVA,10,100.0,8,128,STONE:0)
+CustomObject(SmallLake1,SmallLake2,SmallLake3,SmallLake4,SmallLake5,SmallLake6,SmallLake7,SmallLake8,SmallLake9,SmallLake10,SmallLake11,SmallLake12)
+UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
+UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
+UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
+Dungeon(8,100.0,0,128)
+Tree(10,JungleCanopy1,5,JungleCanopy2,5,JungleCanopy3,5,JungleCanopy4,5,JungleCanopy5,5,JungleCanopy6,5,JungleCanopy7,5,JungleCanopy8,5,JungleCanopy9,5,JungleCanopy10,20,JungleCanopy11,20,JungleCanopy12,20,JungleCanopy13,20,GroundBush,20,CocoaTree,100)
+Grass(Fern,NotGrouped,20,100.0,GRASS,DIRT)
+Grass(Tallgrass,NotGrouped,60,100.0,GRASS,DIRT)
+Plant(MELON_BLOCK,1,100.0,0,128,GRASS,DIRT)
+Plant(Poppy,4,100.0,0,128,GRASS,DIRT)
+Plant(Dandelion,4,100.0,0,128,GRASS,DIRT)
+Plant(PUMPKIN,1,3.0,0,128,GRASS)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Sapling resource                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Custom objects                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeObjects: 
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Structures                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StrongholdsEnabled: true
+
+WoodLandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: true
+
+VillageType: disabled
+
+MineshaftType: normal
+
+MineshaftRarity: 1.0
+
+RareBuildingType: disabled
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SpawnMonsters: []
+
+SpawnCreatures: []
+
+SpawnWaterCreatures: []
+
+SpawnAmbientCreatures: []
+
+BiomeDictId: MOUNTAIN
+
+InheritMobsBiomeName: Extreme Hills Edge
+

@@ -22,8 +22,6 @@ BiomeRarity: 98
 
 BiomeColor: #000070
 
-ReplaceToBiomeName: minecraft:deep_ocean
-
 ####################
 # Isle biomes only #
 ####################
@@ -56,8 +54,6 @@ BiomeHeight: -2.8
 BiomeVolatility: 0.5
 
 SmoothRadius: 16
-
-CustomHeightControlSmoothRadius: 2
 
 MaxAverageHeight: 0.0
 
@@ -150,25 +146,11 @@ WaterColor: #FFFFFF
 
 GrassColor: #FFFFFF
 
-GrassColor2: #FFFFFF
-
 GrassColorIsMultiplier: true
 
 FoliageColor: #FFFFFF
 
-FoliageColor2: #FFFFFF
-
 FoliageColorIsMultiplier: true
-
-FogColor: #000000
-
-FogDensity: 0.5
-
-FogTimeWeight: 0.1
-
-FogRainWeight: 0.25
-
-FogThunderWeight: 0.5
 
 
 #######################################################################
@@ -199,8 +181,6 @@ CustomStructure(GravelOreOceanT1,1.0,SeaBranching,0.2)
 # |                         Sapling resource                        | #
 # +-----------------------------------------------------------------+ #
 #######################################################################
-
-InheritSaplingResource: false
 
 
 #######################################################################
